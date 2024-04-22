@@ -1,0 +1,13 @@
+/* Tagname selector */
+h1{
+    background-color: lawngreen;
+    font-size: 20px;
+    color: black;
+    width: 50%;
+}
+p{
+    background-color: black;
+    font-size: 40px;
+    color: lawngreen;
+    width: 50%;
+}

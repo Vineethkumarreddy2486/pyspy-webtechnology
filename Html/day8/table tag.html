@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <fieldset style="border: 5px double black;width: 40%;height: 700px;background-color: red;">
+        <legend><h1>REGISTRATION FORM</h1></legend>
+    <table style="color: white;">
+        <tr>
+            <td>Name</td>
+            <td>:</td>
+            <td><input type="text" required><sup style="color: white;">*</sup></td>
+        </tr>
+        <tr>
+            <td>DOB</td>
+            <td>:</td>
+            <td><input type="date" required><sup style="color: white;">*</sup></td>
+        </tr>
+        <tr>
+            <td>E-mail</td>
+            <td>:</td>
+            <td><input type="email" required><sup style="color: white;">*</sup></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>:</td>
+            <td><input type="password" required minlength="6" maxlength="12"><sup style="color: white;">*</sup></td>
+        </tr>
+        <tr>
+            <td>Mobile no.</td>
+            <td>:</td>
+            <td><input type="tel" required><sup style="color: white;">*</sup></td>
+          
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>:</td>
+            <tr>
+                <td></td>
+                <td><input type="radio" name="gen">Male</td>
+                <td><input type="radio" name="gen">female</td>
+                <td><input type="radio" name="gen">Others</td>
+            </tr>
+        </tr>
+        <tr>
+            <td>Skills</td>
+            <td>:</td>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" disabled>SQL</td>
+                <td><input type="checkbox">Python</td>
+                <td><input type="checkbox">Java</td>
+            </tr>
+        </tr>
+        <tr>
+            <td>Resume</td>
+            <td>:</td>
+            <td><input type="file" required></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>:</td>
+            <td><select name="" id="">
+                <option value="">select your state</option>
+                <option value="">Andhra Pradesh</option>
+                <option value="">Telangana</option>
+                <option value="">Karnataka</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>District</td>
+            <td>:</td>
+            <td><select name="" id="" required>
+                <option value="">choose your district</option>
+                <optgroup label="Andhra Pradesh">
+                    <option value="">YSR kadapa</option>
+                    <option value="">Kurnool</option>
+                    <option value="">Rayachoty</option>
+                    <option value="">Chittoor</option>
+                    <option value="">Tirupati</option>
+                </optgroup>
+                <optgroup label="Telangana">
+                    <option value="">Hyderabad</option>
+                    <option value="">Hanumakonda</option>
+                    <option value="">Adilabad</option>
+                    <option value="">Jangoan</option>
+                </optgroup>
+                <optgroup label="Karnataka">
+                    <option value="">Banglore</option>
+                    <option value="">Ballari</option>
+                    <option value="">Belagavi</option>
+                    <option value="">Bidar</option>
+                </optgroup>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Adress</td>
+            <td>:</td>
+            <td><textarea name="" id="" cols="30" rows="10" required></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" required></td>
+            <td>I agree all terms & conditions</td>
+        </tr>
+        <tr>
+            <td><input type="submit"></td>
+            <td><input type="Reset"></td>
+        </tr>
+
+    </table>
+    </fieldset>
+    </form>
+</body>
+</html>

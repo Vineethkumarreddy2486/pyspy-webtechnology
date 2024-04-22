@@ -1,0 +1,7 @@
+/* universal selector */
+/* here we use '*'(which represents body) to select the html file,body will also interact to this */
+*{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- submit and reset wont work without form tag -->
+    <!-- required is used to make the feed mandatory -->
+    <form>
+        <!-- for and id values should be same ,these are used to point out automatically -->
+        <!-- these are optional -->
+        <!-- input tag is inline-block element and void element -->
+        <!-- label tag is just for user guidance -->
+        <label for="name">First Name <sup style="color:red">*</sup></label>
+        <input type="text" id="name" required><br>
+
+        <label for="name1">Last Name <sup style="color:red">*</sup></label>
+        <input type="text" id="name1" required><br>
+
+        <label for="name2">DOB <sup style="color:red">*</sup></label>
+        <input type="date" id="name2" required><br>
+
+        <label for="">Mobile Number <sup style="color:red">*</sup></label>
+        <input type="tel" required><br>
+
+        <label for="">E-Mail <sup style="color:red">*</sup></label>
+        <input type="email" required><br>
+
+        <label for="">Password <sup style="color:red">*</sup></label>
+        <input type="password" required><br>
+
+        <label for="">Age</label>
+        <input type="number" required><br>
+
+        <!-- type as "radio" it is used to get the circle to select -->
+        <!-- name attribute is used to 'select any of the options,and all the values must be same' -->
+        <label for="">Gender</label><br>
+        <input type="radio" name="ok" required>Male <br>
+        <input type="radio" name="ok" required>Female <br>
+        <input type="radio" name="ok" required>Others <br>
+
+        <!-- check box -->
+        <label for="">Skills</label><br>
+        <input type="checkbox" disabled>Web <br>
+        <!-- diabled makes the user cant select that option -->
+        <input type="checkbox">Python <br>
+        <input type="checkbox">SQL <br>
+
+        <!-- to get dropdown -->
+        <label for="">State <sup style="color:red"></sup></label>
+        <select>
+            <option value="">select</option>
+            <option value="">Andhra Pradesh</option>
+            <option value="">telangena</option>
+        </select><br>
+
+        <label for="">City</label>
+        <select>
+            <option value="">Choose Your City
+            <optgroup label="AP">
+                <option value="">Kadapa</option>
+                <option value="">Proddatur</option>
+                <option value="">Tirupati</option>
+            </optgroup>
+
+            <optgroup label="Telangana">
+                <option value="">kphb</option>
+                <option value="">Ameerpet</option>
+                <option value="">Punjagutta</option>
+            </optgroup>
+            </option>
+        </select><br>
+
+        <!-- type=file -->
+        <label for="">Resume</label>
+        <input type="file" required><br>
+        <label for="">Image</label>
+        <input type="file" required><br><br>
+
+        <!-- type = image -->
+        <label for="">Image</label>
+        <input type="image" src="../../Assests/Images/thumbnail-1.webp" style="width: 50px"><br>
+
+        <!-- textarea attribute -->
+        <label for="">Adress</label>
+        <textarea name="Permanent adress" id="" cols="30" rows="10"></textarea><br>
+
+
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>

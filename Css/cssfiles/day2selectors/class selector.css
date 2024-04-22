@@ -1,0 +1,6 @@
+/* class selector should be represented by (.) */
+.header1{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}

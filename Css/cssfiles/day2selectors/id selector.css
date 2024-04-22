@@ -1,0 +1,25 @@
+/* we use '#' as a id selector and we have to select by using id with its value */
+#head1{
+    background-color: blueviolet;
+    color: rgb(7, 7, 43);
+    font-size: 20px;
+    width: 40%;
+}
+#head2{
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    width: 60%;
+}
+#para1{
+    background-color: lawngreen;
+    color: black;
+    font-size: 45px;
+    width: 70%; 
+}
+#para2{
+    background-color: black;
+    color: lawngreen;
+    font-size: 50px;
+    width: 80%;
+}
