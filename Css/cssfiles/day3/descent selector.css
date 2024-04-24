@@ -1,0 +1,58 @@
+#grandpa{
+    width: 100%;
+    height: 450px;
+    background-color: darkblue;
+    color: white;
+}
+#father,#babai{
+    width: 47%;
+    height: 80%;
+    float: left;
+}
+#father{
+    background-color: red;
+}
+#babai{
+    background-color: yellowgreen;
+}
+#you,#sibling,#cous1,#cous2{
+    width: 45%;
+    height: 70%;
+    float: left;
+}
+#you{
+    background-color: cadetblue;
+}
+#sibling{
+    background-color: green;
+}
+#cous1{
+    background-color: blueviolet;
+}
+#cous2{
+    background-color: darkred;
+}
+
+
+
+/* applying descent selectors,selecting child divisions by parent division
+,cannot select if the parent div and child div are independent to each other 
+this can be represented by 'space'*/
+
+#grandpa #father{
+    background-color: palevioletred;
+}
+#grandpa #babai{
+    background-color: palevioletred;
+}
+
+/* another way for descent selector */
+#grandpa #you,#sibling{
+    background-color: red;
+}
+#grandpa #cous1,#cous2{
+    background-color: lightgreen;
+}
+#father,#babai{
+    background-color: yellow;
+}

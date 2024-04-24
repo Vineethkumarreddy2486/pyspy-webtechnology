@@ -1,0 +1,77 @@
+#grandpa{
+    width: 100%;
+    height: 450px;
+    background-color: darkblue;
+    color: white;
+}
+#father,#babai{
+    width: 47%;
+    height: 80%;
+    float: left;
+}
+#father{
+    background-color: red;
+}
+#babai{
+    background-color: yellowgreen;
+}
+#sib1,#you,#sib2,#cous1,#cous2,#cous3{
+    width: 30%;
+    height: 70%;
+    float: left;
+}
+#sib1{
+    background-color: brown;
+}
+#you{
+    background-color: aquamarine;
+    color: black;
+}
+#sib2{
+    background-color: blue;
+}
+#cous1{
+    background-color: aliceblue;
+    color: black;
+}
+#cous2{
+    background-color: black;
+}
+#cous3{
+    background-color: magenta;
+}
+
+/* Adjacent selector can select the divisions elder division and div next to elder division ,vice versa cannon work*/
+/* this works between only siblings(adjacent divisions) */
+/* represented by "+" */
+
+/* here div which is given next will be targeted */
+#father+#babai{
+    background-color: yellow;
+    color: black;
+}
+
+/* "" this wont work ""
+#babai+#father{
+    background-color: purple;
+} */
+
+#sib1+#you{
+    background-color: chartreuse;
+}
+
+/* "this wort work"
+#sib1+#sib2{
+    background-color: chocolate;
+} */
+
+#you+#sib2{
+    background-color: darkblue;
+}
+#cous1+#cous2{
+    background-color: deeppink;
+    color: black;
+}
+#cous2+#cous3{
+    background-color: coral;
+}

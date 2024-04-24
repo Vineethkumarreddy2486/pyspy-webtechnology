@@ -1,0 +1,57 @@
+#grandpa{
+    width: 100%;
+    height: 450px;
+    background-color: darkblue;
+    color: white;
+}
+#father,#babai{
+    width: 47%;
+    height: 80%;
+    float: left;
+}
+#father{
+    background-color: red;
+}
+#babai{
+    background-color: yellowgreen;
+}
+#sib1,#you,#sib2,#cous1,#cous2,#cous3{
+    width: 30%;
+    height: 70%;
+    float: left;
+}
+#sib1{
+    background-color: brown;
+}
+#you{
+    background-color: aquamarine;
+    color: black;
+}
+#sib2{
+    background-color: blue;
+}
+#cous1{
+    background-color: aliceblue;
+    color: black;
+}
+#cous2{
+    background-color: black;
+}
+#cous3{
+    background-color: magenta;
+}
+
+/* general sibling selector(~),used to select between adjacent divisions,but here "div can select any div those which are all right to that" */
+
+#sib1~#you{
+    background-color: blueviolet;
+}
+#sib1~#sib2{
+    background-color: aquamarine;
+}
+#cous1~#cous2{
+    background-color: chocolate;
+}
+#cous1~#cous3{
+    background-color: cyan;
+}
