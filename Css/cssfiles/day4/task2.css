@@ -1,0 +1,26 @@
+#container{
+    width: 700px;
+    height: 800px;
+}
+h1{
+    font-size: 130px;
+    float: left;
+}
+.blue{
+    color:darkblue;
+}
+.orangered{
+    color: orangered;
+}
+#third{
+    color: orange;
+}
+#fifth{
+    color: green;
+}
+marquee{
+    width: 100px;
+    height: 800px;
+    float: left;
+}
+/* here the width of the marquee will act as font of each letter */

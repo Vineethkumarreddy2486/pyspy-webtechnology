@@ -1,0 +1,21 @@
+div{
+    width: 300px;
+    height: 250px;
+    font-size: 45px;
+}
+#first,#fourth{
+    color: blue;
+    float: left;
+}
+.second,.last{
+    color: red;
+    float: left;
+}
+#third{
+    float: left;
+    color: orange;
+}
+#fifth{
+    float: left;
+    color: green;
+}
