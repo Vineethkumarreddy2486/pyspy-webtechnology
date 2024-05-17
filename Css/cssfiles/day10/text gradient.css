@@ -1,0 +1,10 @@
+h1{
+    background-image: linear-gradient(75deg,red,blue,green);
+    /* to get the gradient for text */
+    color: transparent;
+    -webkit-background-clip: text;
+    /* text shadow : horizontal vertical blur color*/
+    text-shadow: 5px 5px 5px blue;
+    /* text-shadow : horizontal vertical blur color,-horizontal -vertical blur color ,we use this if we want to merge colors*/
+   
+}

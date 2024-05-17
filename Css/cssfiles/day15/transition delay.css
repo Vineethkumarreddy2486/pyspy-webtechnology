@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+img{
+    width: 40%;
+    transition: margin-left 3s;
+    transition-delay: 10s;
+}
+div:hover img{
+    margin-left: 65%;
+}

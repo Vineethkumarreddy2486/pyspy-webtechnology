@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+div{
+    height: 100px;
+    width: 100%;
+    border-radius: 90px;
+    background-image: linear-gradient(75deg,green,rgb(22, 153, 218),blue,gold,magenta,pink);
+    background-size: 3000px;
+    background-position: 3000px;
+    transition: background-position 1s;
+}
+div:hover{
+    background-position: 0px;
+}

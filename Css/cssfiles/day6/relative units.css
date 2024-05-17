@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    margin: 0px;   
+    padding: 0px;
+}
+#a{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+#b{
+    width: 100vh;
+    height: 100vw;
+    background-color: blueviolet;
+}
+#c{
+    width: 100vw;
+    height: 100vw;
+    background-color: goldenrod;
+}
+#d{
+    width: 100vh;
+    height: 100vh;
+    background-color: blue;
+}

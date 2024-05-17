@@ -1,0 +1,7 @@
+input:required{
+    background-color: red;
+    color: white;
+}
+input:read-only{
+    background-color: yellow;
+}

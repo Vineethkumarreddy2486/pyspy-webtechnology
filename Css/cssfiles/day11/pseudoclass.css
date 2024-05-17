@@ -1,0 +1,17 @@
+/* link state represents which is not visited by the user */
+a:link{
+    background-color: red;
+    font-size: 30px;
+}
+/* visited represents the state after user visited the link */
+a:visited{
+    background-color: aqua;
+}
+/* hover represents the state after we place the cursor on element */
+a:hover{
+    font-size: 80px;
+}
+/* active: represnts the state of html element after we clicked on the html text */
+a:active{
+    color: black;
+}

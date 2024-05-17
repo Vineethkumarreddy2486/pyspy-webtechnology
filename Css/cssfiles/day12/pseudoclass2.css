@@ -1,0 +1,13 @@
+/*  */
+input{
+    background-color: red;
+}
+input:enabled{
+    background-color: blue;
+    color: green;
+}
+/* works like active */
+input:focus{
+    background-color: brown;
+    color: white;
+}

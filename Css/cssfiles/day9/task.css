@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* take all units in vw to get responsive design */
+body{
+    width: 100vw;
+    height: 50vw;
+    background-image: url(https://i.pinimg.com/originals/56/6c/50/566c5067853ed821ade77b7fa804d629.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    padding: 0vw 0vw 0vw 30vw;
+    font-size: 4vw;
+
+}

@@ -1,0 +1,44 @@
+fieldset{
+    width: 570px;
+    height: 480px;
+    border: 5px double blue;
+    color: magenta;
+    background-image: url(/pyspy-webtechnology/Assests/Images/charminar\ 1.jpg),linear-gradient(purple,pink);
+    background-repeat: no-repeat;
+    background-size: 60% 300px,100%;
+    background-position: center;
+    
+}
+legend{
+    font-size: 42px;
+    font-weight: bolder;
+    background-color: white;
+    border: 5px double black;
+    border-radius: 5px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    float: right;
+    color: transparent;
+}
+fieldset:hover{
+    text-align: center;
+    background-image: url(/pyspy-webtechnology/Assests/Images/charminar\ 2.jpg),linear-gradient(purple,pink);
+    background-repeat: no-repeat;
+    background-size: 50% 200px,100%;
+    background-position: 20px 115px,0 0;
+}
+fieldset:hover p{
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+    color: yellow;
+}
+fieldset:hover h1{
+    text-align: justify;
+    color: white;
+    padding-left: 55px;
+}fieldset:hover div{
+    margin-top: 20px;
+}

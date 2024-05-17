@@ -1,0 +1,35 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-image: url(/pyspy-webtechnology/Assests/Images/thumbnail-1.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+}
+h1{
+    margin: 0px;
+    text-align: center;
+    padding-top: 280px;
+    color: white;
+    font-size: 50px; 
+}
+h2{
+    color: transparent; 
+    margin: 0px;
+    text-align: center;
+    font-size: 50px; 
+}
+div:hover{
+    width: 400px;
+    height: 400px;
+    background-image: url(/pyspy-webtechnology/Assests/Images/thumbnail-2.webp);
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-size: 100% 400px;
+}
+div:hover h1{
+    color: transparent;
+}
+div:hover h2{
+    color: white;
+    font-size: 30px;
+}

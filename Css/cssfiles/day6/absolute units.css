@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+#cm{
+    width: 100%;
+    height: 3cm;
+    background-color:aqua;
+}
+#mm{
+    width: 80%;
+    height: 15mm;
+    background-color: aquamarine;
+}
+#in{
+    width: 60%;
+    height: 1in;
+    background-color: blueviolet;
+}
+#pt{
+    width: 60%;
+    height: 55pt;
+    background-color: brown;
+}
+#px{
+    width: 80%;
+    height: 80px;
+    background-color: crimson;
+}
+#pc{
+    background-color: darkgray;
+    width: 100%;
+    height: 5pc;
+}

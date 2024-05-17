@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 50%;
+
+    /* it is mandatory to work transform */
+    transition: all 2s ;
+}
+img:hover{
+    transform: rotate(360deg);
+    /* rotate through x-axis */
+    transform: rotateX(180deg);
+    /* rotate through y-axis */
+    transform: rotateY(180deg);
+    /* rotate through z-axis */
+    transform: rotateZ(180deg);
+
+    /* scale property is used to increase or decrease the sixe of an image */
+    /* by default SCALE value is "1" */
+
+    /* to decrecre size */
+    transform: scale(0.5);
+
+    /* to increase size */
+    transform: scale(2); 
+
+    /* to apply only on width */
+    transform: scaleX(2);
+
+    /* to apply only on height */
+    transform: scaleY(2);
+
+    /* to apply on both width and height */
+    transform: scale(2,0.5);
+
+}

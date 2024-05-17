@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100%;
+    height: 700px;
+}
+img{
+    width: 20%;
+    transition: 3s;
+    transition-delay: 2s;
+}
+/* transition timing function used to create animation,starting speed depends on its corresponding values
+but reaches end at the same time */
+div:hover img{
+    margin-left: 80%;
+}
+#train{
+    /* uniform speed but looks more fast */
+    transition-timing-function: ease;
+}
+#car{
+    /* starting fast and then slow */
+    transition-timing-function: ease-in;
+}
+#bus{
+    /* ease out:-starting late and then fast */
+    transition-timing-function: ease-out;
+}
+#truck{
+    /* ease in out:-medium on start and end */
+    transition-timing-function: ease-in-out;
+}
+#lambo{
+    /* linear:-constant speed */
+    transition-timing-function: linear;
+}

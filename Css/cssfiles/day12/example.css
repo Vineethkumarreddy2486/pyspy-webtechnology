@@ -1,0 +1,23 @@
+div{
+    background-color: red;
+    width: 500px;
+    height: 100px;
+}
+/* syntax parent div:child div */
+/* to select 1st child div */
+div:first-child{
+    background-color: blue;
+}
+/* to select last child div */
+div:last-child{
+    background-color: blueviolet;
+}
+/* to select middle child div */
+div:nth-child(2){
+    background-color: cadetblue;
+}
+div:nth-child(3){
+    background-color: rgb(148, 230, 34);
+}
+
+p{}
