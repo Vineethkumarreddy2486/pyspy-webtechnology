@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 10px;
+    text-align: center;
+    color: green;
+    /* animation:animation_name animation_duration animation_iteration_count animation_direction*/
+    animation: text 2s infinite alternate;
+}
+@keyframes text {
+    from{
+        transform: translate(-1200px);
+        color: blue;
+    }
+    to{
+        transform: translate(0px);
+        color: red;
+    }
+}
+#a{
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+#b{
+    animation-delay: 8s;
+    animation-fill-mode: backwards;
+}
+#c{
+    animation-fill-mode: both;
+    animation-delay: 10s;
+}

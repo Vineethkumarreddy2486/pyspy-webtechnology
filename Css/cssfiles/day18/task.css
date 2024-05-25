@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+div{
+    width: 500px;
+    height: 100px;
+    margin-left: 35%;
+    margin-top: 20%;
+}
+h1{
+    float: left;
+    color: aqua;
+    font-size: 120px;
+    margin-right: 10px;
+    /* animation-name: task;
+    animation-duration: 8s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both; */
+    animation: task 8s 3s infinite both;
+
+}
+@keyframes task {
+    0%{
+        transform: translate(0px,-600px);
+    }
+    20%{
+        transform: translate(0px,200px)
+        rotateY(60deg) rotate(30deg);
+    }
+    40%{
+        transform: translate(0px,-200px)
+        rotateY(-60deg) rotate(-30deg);
+    }
+    60%{
+        transform: translate(0px,0px)
+        rotateY(360deg) rotate(360deg);
+    }
+    100%{
+        transform: translate(0px,0px)
+        rotateY(0deg) rotate(0deg);
+    }
+}
+#v{
+    animation-direction: alternate-reverse;
+    animation-delay: 2s;
+}
+#i{
+    animation-direction: alternate-reverse;
+    animation-delay: 3s;
+}
+#n{
+    animation-direction: alternate-reverse;
+    animation-delay: 4s;
+}
+#N{
+    animation-direction: alternate-reverse;
+    animation-delay: 5s;
+}
+#y{
+    animation-direction: alternate-reverse;
+    animation-delay: 6s;
+}

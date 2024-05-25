@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 300px;
+    transition: all 2s;
+}
+img:hover{
+
+     /* translate is used to move the html element */
+
+    /* to move through x-axix */
+    transform: translateX(100px);
+
+    /* to move y-axis */
+    transform: translateY(200px);
+
+    /* translate(x-axis value,y-axis value) */
+    transform: translate(400px,400px);
+
+
+    /* SKEW is used to move diagonally */
+
+    transform: skewX(30deg);
+    transform: skewY(60deg);
+}

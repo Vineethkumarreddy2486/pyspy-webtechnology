@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color: greenyellow;
+    width: 100%;
+    height: 600px;
+}
+img{
+    width: 20%;
+    animation-name: vehicles;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+@keyframes vehicles {
+    from{
+        transform: translate(0px,0px);
+    }
+    to{
+        transform: translate(1000px,0px);
+    }
+}
+
+#car{
+    animation-timing-function: ease;
+}
+#bus{
+    animation-timing-function: ease-in;
+}
+#train{
+    animation-timing-function: ease-out;
+}
+#lambo{
+    animation-timing-function: ease-in-out;
+}
+#car1{
+    animation-timing-function: linear;
+}

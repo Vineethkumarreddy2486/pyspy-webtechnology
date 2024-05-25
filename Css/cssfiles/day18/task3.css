@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+button{
+    margin-left: 38%;
+    margin-top: 20%;
+    background-color: greenyellow;
+    width: 400px;
+    height: 90px;
+    font-size: 20px;
+    color: transparent;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 50px;
+}
+button:hover{
+    text-shadow: 3px 3px 2px white;
+    color: black;
+    font-size: 30px;
+    animation: button 3s infinite alternate both;
+    box-shadow: -5px -5px 3px red,5px 5px 5px rgb(148, 244, 5); 
+    
+}
+@keyframes button{
+    0%{
+        transform: translate(0px,0px) rotateZ(60deg) rotateY(-60deg) skew(10deg);
+        background-color: rgb(25, 81, 234);
+        box-shadow: -5px -5px 5px red,5px 5px 5px rgb(148, 244, 5); 
+        
+    }
+    50%{
+        transform: translate(0px,0px) rotateY(70deg) rotateZ(-45deg) skew(10deg);
+        background-color: red;
+        box-shadow: -5px -5px 5px red,5px 5px 5px greenyellow; 
+    }
+    75%{
+        transform: translate(0px,0px) rotateX(20deg) rotate(60deg) skew(10deg);
+        background-color: darkturquoise;
+        box-shadow: -5px -5px 5px red,5px 5px 5px rgb(148, 244, 5); 
+    }
+    100%{
+        transform: translate(0px,0px) rotateX(0deg) skew(10deg);
+        background-color: rgba(88, 79, 79, 0.528);
+        box-shadow: -5px -5px 5px red,5px 5px 5px rgb(148, 244, 5); 
+    }
+}

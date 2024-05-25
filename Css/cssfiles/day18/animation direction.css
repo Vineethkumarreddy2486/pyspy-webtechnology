@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 300px;
+    animation-name: movingcar;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    /* iteration count must be morethan 2 or infinite to see the reverse of the animation */
+    /* animation direction used how the animation should move  */
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-direction: normal;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+}
+@keyframes movingcar {
+    0%{
+        transform: translate(0px,0px) rotate(360deg) scale(0.5);
+    }
+    25%{
+        transform: translate(250px,250px) rotate(60deg) scale(1);
+    }
+    50%{
+        transform: translate(500px,500px) rotate(180deg) scale(1.5);
+    }
+    75%{
+        transform: translate(750px,250px) rotate(450deg) scale(1.5);
+    }
+    100%{
+        transform: translate(1000px,0px) rotate(0deg) scale(1);
+    }
+}
