@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    background-color: red;
+    cursor: url(/Assests/Images/emoji-removebg-preview.png),pointer;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    cursor: alias;
+    cursor: all-scroll;
+    cursor: auto;
+    cursor: cell;
+    cursor: col-resize;
+    cursor: context-menu;
+    cursor: copy;
+    cursor: crosshair;
+    cursor: e-resize;
+    cursor: zoom-in;
+    cursor: zoom-out;
+    /* we can create our own cursor */
+    cursor: url(/Assests/Images/tom2-removebg-preview.png), pointer;
+
+}
