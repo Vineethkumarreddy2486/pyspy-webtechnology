@@ -1,0 +1,38 @@
+/*  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#cont{
+    width: 1200px;
+    height: 400px;
+    background-color: red;
+    display: flex;
+    font-size: 40px;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+
+    /* to get responsive we use flex wrap as wrap ,and width value must be in %, and height also required */
+    /* make height and width as comments if u want to see the response of "columns" */
+    /* width: 100%;
+    height: auto; */
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;
+
+    /* 'flex-flow' is a short hand property for flex-direction ,flex-wrap */
+    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    flex-flow: column nowrap;
+    flex-flow: column wrap;
+}
+#subdiv{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 0.5px solid black;
+    text-align: center;
+}

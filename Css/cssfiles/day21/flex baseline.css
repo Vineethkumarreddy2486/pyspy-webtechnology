@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    width: 800px;
+    height: 400px;
+    background-color: aquamarine;
+    display: flex;
+    font-size: 40px;
+    align-items: baseline;
+}
+#div1,#div2,#div3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+}
+#div1{
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#div2{
+    background-color: whitesmoke;
+}
+#div3{
+    background-color: green;
+}
