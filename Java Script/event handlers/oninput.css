@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 34vw;
+    height: 5vw;
+    border: 2px solid black;   /* inset :-to get shadow inside of box */
+    border-radius: 6vw;
+    box-shadow: 5px 5px 5px black,inset 2px 2px 5px black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+#eye{
+    width: 3vw;  /* to get shadow of image we use dropshadow*/
+    filter: drop-shadow(2px 2px 2px black) drop-shadow(-2px -2px 2px black);
+    transition: all 0.5s;
+    margin-right: 35px;
+}
+#inp{
+    width: 90%;
+    height: 90%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 2vw;
+    font-weight: bold;
+    letter-spacing: 0.2vw;
+    padding: 0px 10px;
+}
+#status{
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1vw;
+}
+input::-ms-reveal{
+    display: none;
+}

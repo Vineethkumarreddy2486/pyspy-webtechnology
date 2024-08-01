@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    font-size: 60px;
+    letter-spacing: 10px;
+    position: absolute;
+    color: red;
+    text-shadow: 10px 10px 5px black;
+}
+div{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+}
+#div1{
+    background-image: url(../../Assests/Images/sunday.webp);
+}
+#div2{
+    background-image: url(../../Assests/Images/monday.jpg);
+}
+#div3{
+    background-image: url(../../Assests/Images/tuesday.jpg);
+}
+#div4{
+    background-image: url(../../Assests/Images/wednesday.jpg);
+}
+#div5{
+    background-image: url(../../Assests/Images/thursday.jpg);
+}
+#div6{
+    background-image: url(../../Assests/Images/friday.jpg);
+}
+#div7{
+    background-image: url(../../Assests/Images/saturday.jpg);
+}
+#div8{
+    background-image: url(../../Assests/Images/7out6vd8_pawan-kalyan.webp);
+}
