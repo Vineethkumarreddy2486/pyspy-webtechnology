@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./bubbling.js" defer></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #grandparent{
+            width: 70%;
+            height: 90%;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #parent{
+            width: 50%;
+            height: 70%;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #child{
+            width: 50%;
+            height: 60%;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div id="grandparent" onclick="grandparentdiv()">
+        <h1>Grandparent</h1>
+        <div id="parent" onclick="parentdiv()">
+            <h1>Parent</h1>
+            <div id="child" onclick="childdiv()">
+                <h1>Child</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
