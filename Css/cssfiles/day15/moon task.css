@@ -11,12 +11,12 @@ div{
     height: 100vh;
     background-color: black;
     background-image: 
-    url(/Assests/Images/left_mountain-removebg-preview.png)
-    ,url(/Assests/Images/left_mountain-removebg-preview.png)
-    ,url(/Assests/Images/right_mountain-removebg-preview.png),
+    url(/Assests/Images/left_mountain-removebg-preview.png),
+    url(/Assests/Images/left_mountain-removebg-preview.png),
     url(/Assests/Images/right_mountain-removebg-preview.png),
-    url(/Assests/Images/moon-removebg-preview\ \(1\).png)
-    url(/Assests/Images/pexels-instawally-176851.jpg);
+    url(/Assests/Images/right_mountain-removebg-preview.png),
+    url(/Assests/Images/moon-removebg-preview\ \(1\).png),
+    url(../../../Assests/Images/pexels-instawally-176851.jpg);
     background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,repeat;
     background-size: 55%,40%,55%,40%,17%,100%;
     background-position: 800px 180px,580px 300px,-250px 180px,150px 300px,50% 900px,center;
